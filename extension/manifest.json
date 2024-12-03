@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Whitelist Blocker",
+  "version": "1.0",
+  "description": "Blocks all websites except the ones in the whitelist.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
