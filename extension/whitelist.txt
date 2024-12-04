@@ -10,3 +10,5 @@ panopto.eu
 paypal.com
 sharepoint.com
 outlook.office365.com
+login.microsoftonline.com
+microsoftonline.com
