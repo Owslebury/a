@@ -9,3 +9,4 @@ office.com
 panopto.eu
 paypal.com
 sharepoint.com
+outlook.office365.com
